@@ -1,14 +1,9 @@
 "use client";
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+
+import { useAOS } from "@/้hooks/useAos";
+
 export function Footer() {
-  useEffect(() => {
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-  }, []);
+  useAOS(1000)
   return (
     <div className="h-[50vh] w-full flex flex-col justify-between items-center bg-black">
       <div className="w-full justify-between flex flex-row px-5 py-5">
@@ -17,15 +12,13 @@ export function Footer() {
         </h2>
         <h2 className="text-white font-light text-xl">Hit me up</h2>
       </div>
-      <div className="relative w-fit flex flex-col items-center -space-y-15">
+      <div className="w-fit flex flex-col items-center space-y-[-60px]">
         <div
           className="w-full px-20 flex flex-row justify-between z-20"
-          data-aos="fade-down"
         >
           <p
             className="inline-block px-7 py-1 text-xl text-black bg-[#D8DE99] rounded-full
-        rotate-10"
-          >
+        rotate-10">
             Email
           </p>
           <p
