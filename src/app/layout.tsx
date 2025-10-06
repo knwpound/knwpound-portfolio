@@ -35,10 +35,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <NavBar/>
       <body
         className={`${archivo.variable} ${besley.variable} ${homemade_apple.variable} antialiased`}
       >
+        <NavBar/>
         {children}
       </body>
     </html>
