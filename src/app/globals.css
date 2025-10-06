@@ -23,4 +23,67 @@
 body {
   color: var(--foreground);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
 }
+
+@keyframes reveal {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes pulseGradient {
+  0%, 100% {
+    opacity: 0.9;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@layer utilities {
+  .animate-pulseGradient {
+    animation: pulseGradient 3s ease-in-out infinite;
+  }
+}
+
+@keyframes pulseCircle1 {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.2; }
+}
+
+@keyframes pulseCircle2 {
+  0%, 100% { opacity: 0.2; }
+  50% { opacity: 1; }
+}
+
+.animate-pulseCircle1 {
+  animation: pulseCircle1 5s ease-in-out infinite;
+}
+
+.animate-pulseCircle2 {
+  animation: pulseCircle2 5s ease-in-out infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 20s linear infinite;
+}
+
+.animate-scroll:hover {
+  animation-play-state: paused; /* หยุดเลื่อนเมื่อ hover */
+}
+
