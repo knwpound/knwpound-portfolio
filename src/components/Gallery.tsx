@@ -42,6 +42,8 @@ export function Gallery() {
                 className="w-fit font-semibold text-white bg-black py-1 px-3 shadow-sm rounded-md
                       hover:bg-white hover:text-black hover:outline hover:outline-black "
                 href="https://www.figma.com/design/omfIdKjQSJmBEcNpgwRctD/Wireframe?node-id=1-2&t=Px2REJiCr3qt6rRr-1"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Figma
               </a>
@@ -86,6 +88,8 @@ export function Gallery() {
                 className="w-fit font-semibold text-white bg-black py-1 px-3 shadow-sm rounded-md
                       hover:bg-white hover:text-black hover:outline hover:outline-black "
                 href="https://www.figma.com/design/Y2eAMZ9AV4BRHSSOB1o0JI/PPY-Website-Design?node-id=413-4526&t=fECyz2HAs1UaWzOM-1"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Figma
               </a>
@@ -122,8 +126,8 @@ export function Gallery() {
               </p>
             </div>
             <p className="w-full text-sm text-justify">
-              My solo project for Event Management web application. 
-              Simple design for product management website with user and admin view.
+              My solo project for Event Management web application. Simple
+              design for product management website with user and admin view.
             </p>
             <hr className="border border-gray-400" />
             <div className="flex w-full justify-end">
@@ -131,6 +135,8 @@ export function Gallery() {
                 className="w-fit font-semibold text-white bg-black py-1 px-3 shadow-sm rounded-md
                       hover:bg-white hover:text-black hover:outline hover:outline-black "
                 href="https://swdevprac2-term-project.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Link
               </a>
@@ -177,7 +183,9 @@ export function Gallery() {
               <a
                 className="w-fit font-semibold text-white bg-black py-1 px-3 shadow-sm rounded-md
                       hover:bg-white hover:text-black hover:outline hover:outline-black "
-                href="https://www.figma.com/design/omfIdKjQSJmBEcNpgwRctD/Wireframe?node-id=1-2&t=Px2REJiCr3qt6rRr-1"
+                href="https://www.figma.com/design/LrfaZHiF1lie1aAPwezPzn/Fitness-App?node-id=421-3582&t=IFnhHE5eiWnnPP7r-1"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Figma
               </a>
@@ -185,54 +193,6 @@ export function Gallery() {
           </div>
         }
       />
-
-      {/* Smart Flood */}
-      {/* <FlipCard
-        front={
-          <video
-            src="/vdo/smart.mp4"
-            autoPlay
-            loop
-            muted
-            className="w-full h-[120%] object-cover rounded-md -translate-y-10"
-          ></video>
-        }
-        back={
-          <div className="flex flex-col gap-1 px-5 py-2">
-            <div className="flex flex-row gap-2 items-baseline">
-              <p className="text-sm font-semibold">Embedded</p>
-              <p className="h-full text-xs font-semibold text-gray-400">
-                Sophomore year
-              </p>
-            </div>
-            <h1 className="text-xl font-semibold">Water Sensor</h1>
-            <div className="flex flex-row gap-1">
-              <p className="px-3 py-0.5 bg-lime-400/50 rounded-sm font-light text-sm">
-                Dev
-              </p>
-              <p className="px-3 py-0.5 bg-violet-300/80 rounded-sm font-light text-sm">
-                Designer
-              </p>
-            </div>
-            <p className="w-full text-sm">
-              This project is about a water level sensor used in a dam. I
-              designed the entire website's UI/UX. To make it feel more
-              realistic, I added animated water waves, and the container can be
-              scaled to match real-life sizes.{" "}
-            </p>
-            <hr className="border border-gray-400" />
-            <div className="flex w-full justify-end">
-              <a
-                className="w-fit font-semibold text-white bg-black py-1 px-3 shadow-sm rounded-md
-                      hover:bg-white hover:text-black hover:outline hover:outline-black "
-                href="https://smart-floodgate.web.app"
-              >
-                Link
-              </a>
-            </div>
-          </div>
-        }
-      /> */}
 
       {/* AucAuc */}
       <FlipCard
@@ -272,6 +232,8 @@ export function Gallery() {
                 className="w-fit font-semibold text-white bg-black py-1 px-3 shadow-sm rounded-md
                       hover:bg-white hover:text-black hover:outline hover:outline-black "
                 href="https://www.figma.com/design/NOZXtEpBdPDw014iA7XWfZ/aucauc?node-id=1-2&t=rC3FDK6EALIX1Men-1"
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Figma
               </a>
@@ -420,6 +382,57 @@ export function Gallery() {
               taken on the roles of task manager and full-stack developer for
               this exciting project!
             </p>
+          </div>
+        }
+      /> */
+  }
+  {
+    /* Smart Flood */
+  }
+  {
+    /* <FlipCard
+        front={
+          <video
+            src="/vdo/smart.mp4"
+            autoPlay
+            loop
+            muted
+            className="w-full h-[120%] object-cover rounded-md -translate-y-10"
+          ></video>
+        }
+        back={
+          <div className="flex flex-col gap-1 px-5 py-2">
+            <div className="flex flex-row gap-2 items-baseline">
+              <p className="text-sm font-semibold">Embedded</p>
+              <p className="h-full text-xs font-semibold text-gray-400">
+                Sophomore year
+              </p>
+            </div>
+            <h1 className="text-xl font-semibold">Water Sensor</h1>
+            <div className="flex flex-row gap-1">
+              <p className="px-3 py-0.5 bg-lime-400/50 rounded-sm font-light text-sm">
+                Dev
+              </p>
+              <p className="px-3 py-0.5 bg-violet-300/80 rounded-sm font-light text-sm">
+                Designer
+              </p>
+            </div>
+            <p className="w-full text-sm">
+              This project is about a water level sensor used in a dam. I
+              designed the entire website's UI/UX. To make it feel more
+              realistic, I added animated water waves, and the container can be
+              scaled to match real-life sizes.{" "}
+            </p>
+            <hr className="border border-gray-400" />
+            <div className="flex w-full justify-end">
+              <a
+                className="w-fit font-semibold text-white bg-black py-1 px-3 shadow-sm rounded-md
+                      hover:bg-white hover:text-black hover:outline hover:outline-black "
+                href="https://smart-floodgate.web.app"
+              >
+                Link
+              </a>
+            </div>
           </div>
         }
       /> */

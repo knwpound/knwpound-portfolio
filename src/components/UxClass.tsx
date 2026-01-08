@@ -24,7 +24,7 @@ export function UxClass() {
                   <h1 className="text-xl font-semibold">CP Website</h1>
                   <Link
                     href={
-                      "https://www.figma.com/design/Y2eAMZ9AV4BRHSSOB1o0JI/PPY-Website-Design?node-id=219-513&t=fECyz2HAs1UaWzOM-1"
+                      "https://www.figma.com/design/omfIdKjQSJmBEcNpgwRctD/Wireframe?node-id=1-2&t=Px2REJiCr3qt6rRr-1"
                     }
                     target="_blank"
                     rel="noopener noreferrer"
