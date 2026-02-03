@@ -2,7 +2,7 @@
 
 export default function FigmaEmbed({ figmaLink }: { figmaLink: string }) {
   return (
-    <div className="w-full h-[450px] md:h-full lg:h-[600px]"> 
+    <div className="w-full h-[450px] lg:h-[600px]"> 
       <iframe
         className="w-full h-full rounded-xl border border-black/10 shadow-sm"
         src={figmaLink}
