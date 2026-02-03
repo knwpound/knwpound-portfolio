@@ -21,7 +21,7 @@ export function Footer() {
         <div className="flex flex-wrap justify-center gap-1 sm:gap-4 md:gap-8 z-20 relative -mb-9 md:-mb-18">
           <ContactBadge 
             label="Email" 
-            value="pound.somparn@gmail.com" 
+            value="kanokwan.somparn@gmail.com" 
             color="bg-[#D8DE99]" 
             rotate="rotate-6"
             isCopy 
