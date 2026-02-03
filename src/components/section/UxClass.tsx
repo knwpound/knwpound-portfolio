@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Files } from "./File";
+import { Files } from "../ui/File";
 import { useAOS } from "@/้hooks/useAos";
 export function UxClass() {
   useAOS(1000);

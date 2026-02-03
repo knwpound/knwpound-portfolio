@@ -194,6 +194,56 @@ export function Gallery() {
         }
       />
 
+      {/* Chat */}
+      {/* <FlipCard
+        front={
+          <Image
+            src="/pics/chat.png"
+            alt=""
+            fill
+            className="object-cover rounded-md"
+          />
+        }
+        back={
+          <div className="flex flex-col gap-1 px-5 py-2">
+            <div className="flex flex-row gap-2 items-baseline">
+              <p className="text-sm font-semibold">Network</p>
+              <p className="h-full text-xs font-semibold text-gray-400">
+                Junior year
+              </p>
+            </div>
+            <h1 className="text-xl font-semibold">Realtime Chat App</h1>
+            <div className="flex flex-row gap-1">
+              <p className="px-3 py-0.5 bg-lime-400/50 rounded-sm font-light text-sm">
+                Dev
+              </p>
+              <p className="px-3 py-0.5 bg-violet-300/80 rounded-sm font-light text-sm">
+                Designer
+              </p>
+              <p className="px-3 py-0.5 bg-fuchsia-200 rounded-sm font-light text-sm">
+                PM
+              </p>
+            </div>
+            <p className="w-full text-sm">
+              Real-time chat application built with Socket.io. I took the lead
+              on this project, handling planning, task allocation, designer and
+              developer. The design concept focuses on simplicity, clarity, and
+              familiarity for users.
+            </p>
+            <hr className="border border-gray-400" />
+            <div className="flex w-full justify-end">
+              <a
+                className="w-fit font-semibold text-white bg-black py-1 px-3 shadow-sm rounded-md
+                      hover:bg-white hover:text-black hover:outline hover:outline-black "
+                href="https://www.figma.com/design/r3L2Ix6JiQNoDwvwX9YbH9/Network?node-id=0-1&t=cFl1NPIpO3S8wHQZ-1"
+              >
+                Figma
+              </a>
+            </div>
+          </div>
+        }
+      /> */}
+
       {/* AucAuc */}
       <FlipCard
         front={

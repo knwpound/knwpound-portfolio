@@ -2,7 +2,7 @@
 import Image from "next/image";
 import { useAOS } from "@/้hooks/useAos";
 
-import { FlipText } from "./FlipText";
+import { FlipText } from "../ui/FlipText";
 export function Banner() {
   useAOS(1500);
   return (

@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
-import { FlipCard } from "./FlipCard";
-import { Gallery } from "./Gallery";
+import { FlipCard } from "../ui/FlipCard";
+import { Gallery } from "../ui/Gallery";
 
 export default function AutoScrollGallery() {
   return (
