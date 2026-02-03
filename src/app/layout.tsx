@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Archivo, Besley,Homemade_Apple } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "@/components/navbar/NavBar";
+import { ResponsiveToast } from "@/components/section/ResponsiveToast";
 
 const archivo = Archivo({
   variable: "--font-archivo",
@@ -38,6 +39,7 @@ export default function RootLayout({
       <body
         className={`${archivo.variable} ${besley.variable} ${homemade_apple.variable} antialiased`}
       >
+        <ResponsiveToast/>
         <NavBar/>
         {children}
       </body>
