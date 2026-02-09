@@ -3,6 +3,7 @@ import { Archivo, Besley,Homemade_Apple } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "@/components/navbar/NavBar";
 import { ResponsiveToast } from "@/components/section/ResponsiveToast";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const archivo = Archivo({
   variable: "--font-archivo",
@@ -43,6 +44,7 @@ export default function RootLayout({
         <NavBar/>
         {children}
       </body>
+      <GoogleAnalytics gaId="G-TRFYD7F9RY" />
     </html>
   );
 }
